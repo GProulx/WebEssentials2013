@@ -75,12 +75,6 @@ namespace MadsKristensen.EditorExtensions.Html
                 // Check if a parent element have the row class.
                 return IsParentDivElementMissingRowClass(element.Parent);
             }
-
-            ////if (classNames.Value.Split(' ').Any(x => x.Equals("row")))
-            ////    return false;
-
-            //// No strong confirmation, be safe.
-            //return false;
         }
     }
 }
